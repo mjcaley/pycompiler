@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pycompiler"
+version = "0.1.0"
+description = ""
+authors = ["Michael Caley <mcaley@canadagoose.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+lark-parser = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.6"
